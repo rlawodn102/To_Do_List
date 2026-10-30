@@ -6,15 +6,16 @@ import List from './List/List';
 
 function App() {
     return (
-        <div className="App">
+        <div className="flex flex-col w-full min-h-screen mx-auto">
             <header className='flex justify-between items-center text-xl font-bold h-20 p-10 bg-slate-200'>
-                {/* <p>1</p> */}
+                <h1>To-do</h1>
+                <h1>김재우</h1>
             </header>
             <main>
                 <List />
             </main>
             <footer>
-
+                <p></p>
             </footer>
         </div>
     );

@@ -1,9 +1,16 @@
 {
   "posts": [
     {
-      "title": "태종대",
-      "author": "김재우",
-      "id": "xMlw-uBn1HM"
+      "todo": "to-do list 기능 구현 추가",
+      "id": "ucfpQ3wiVFI"
+    },
+    {
+      "todo": "typescript skill up",
+      "id": "4g3t7FuaQvc"
+    },
+    {
+      "todo": "1일 1커밋 목표로하기",
+      "id": "-XQgdKUs-3c"
     }
   ],
   "comments": [
