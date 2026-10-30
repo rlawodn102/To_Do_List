@@ -1,25 +1,23 @@
 import logo from './logo.svg';
 import './App.css';
+import { DiAtom } from 'react-icons/di';
+
+import List from './List/List';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="App">
+            <header className='flex justify-between items-center text-xl font-bold h-20 p-10 bg-slate-200'>
+                {/* <p>1</p> */}
+            </header>
+            <main>
+                <List />
+            </main>
+            <footer>
+
+            </footer>
+        </div>
+    );
 }
 
 export default App;
